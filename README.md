@@ -147,7 +147,7 @@ Observation:
 - Plot Vout vs Vin  
 - Identify saturation region  
 
- Attach DC Sweep graph screenshot here  
+ Attach DC Sweep graph screenshot here dc analysis.jpg 
 
 ---
 
