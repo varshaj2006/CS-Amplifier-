@@ -1,6 +1,6 @@
 # CS Amplifier Design using NMOS (TSMC 180nm)
 
-## 📌 Experiment Details
+##  Experiment Details
 
 - Technology: TSMC 180nm
 - Tool: LTspice
@@ -11,7 +11,7 @@
 
 ---
 
-# 1️⃣ Aim
+#  Aim
 
 To design and simulate a Common Source (CS) amplifier using NMOS in TSMC 180nm technology using LTspice such that:
 
@@ -22,7 +22,7 @@ To design and simulate a Common Source (CS) amplifier using NMOS in TSMC 180nm t
 
 ---
 
-# 2️⃣ Theory
+#  Theory
 
 A Common Source amplifier:
 
@@ -44,7 +44,7 @@ gm = 2ID / Vov
 
 ---
 
-# 3️⃣ Design Calculations
+# Design Calculations
 
 ## Step 1: Power Constraint
 
@@ -57,7 +57,7 @@ Choose:
 
 ID = 0.3mA  
 
-Power = 1.2 × 0.3mA = 0.36mW ✅
+Power = 1.2 × 0.3mA = 0.36mW 
 
 ---
 
@@ -98,9 +98,9 @@ RD = 2kΩ
 
 ---
 
-# 4️⃣ Circuit Diagram
+#  Circuit Diagram
 
-👉 Attach LTspice schematic screenshot here
+ Attach LTspice schematic screenshot here
 
 Components:
 
@@ -112,7 +112,7 @@ Components:
 
 ---
 
-# 5️⃣ LTspice Netlist Code
+#  LTspice Netlist Code
 
 ```spice
 * CS Amplifier - TSMC 180nm
@@ -137,7 +137,7 @@ M1 out in 0 0 NMOS W=18u L=360n
 
 ---
 
-# 6️⃣ DC Operating Point Analysis
+#  DC Operating Point Analysis
 
 Procedure:
 
@@ -150,11 +150,11 @@ Expected Results:
 - VDS ≈ 0.6V  
 - Power ≈ 0.36mW  
 
-👉 Attach DC Operating Point screenshot here  
+Attach DC Operating Point screenshot here  
 
 ---
 
-# 7️⃣ DC Sweep Analysis
+#  DC Sweep Analysis
 
 Command:
 
@@ -165,11 +165,11 @@ Observation:
 - Plot Vout vs Vin  
 - Identify saturation region  
 
-👉 Attach DC Sweep graph screenshot here  
+ Attach DC Sweep graph screenshot here  
 
 ---
 
-# 8️⃣ Transient Analysis
+#  Transient Analysis
 
 Command:
 
@@ -182,11 +182,11 @@ Expected Result:
 - Output inverted waveform  
 - 180° phase shift  
 
-👉 Attach transient waveform screenshot here  
+ Attach transient waveform screenshot here  
 
 ---
 
-# 9️⃣ Gain Calculation
+#  Gain Calculation
 
 Theoretical:
 
@@ -204,7 +204,7 @@ Gain in dB:
 
 ---
 
-# 🔟 AC Analysis
+#  AC Analysis
 
 Command:
 
@@ -216,11 +216,11 @@ Observation:
 - Bandwidth ≈ 150 MHz  
 - Phase shift ≈ -180°  
 
-👉 Attach Bode plot screenshot here  
+ Attach Bode plot screenshot here  
 
 ---
 
-# 1️⃣1️⃣ Results
+# Results
 
 - Successfully designed CS amplifier  
 - Gain ≈ -6  
@@ -230,13 +230,13 @@ Observation:
 
 ---
 
-# 1️⃣2️⃣ Conclusion
+#  Conclusion
 
 The Common Source amplifier using TSMC 180nm technology was successfully designed and simulated in LTspice. The circuit satisfies the given power constraint and provides the expected gain and bandwidth performance.
 
 ---
 
-# 1️⃣3️⃣ Inference
+# Inference
 
 - Increasing W increases gain  
 - Increasing RD increases gain but reduces bandwidth  
