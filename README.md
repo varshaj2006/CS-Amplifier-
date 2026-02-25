@@ -200,6 +200,7 @@ Observation:
 
  Attach Bode plot screenshot here  
  https://github.com/varshaj2006/CS-Amplifier-/blob/main/AC%20analysis%20without%20capacitor.jpg
+ https://github.com/varshaj2006/CS-Amplifier-/blob/main/AC%20analysis%20with%20capacitor.jpg
 
 ---
 
