@@ -93,7 +93,7 @@ Choose:
 
 ID = 0.3mA  
 
-Power = 1.2 × 0.3mA = 0.36mW 
+Power = 1.2 × 0.3mA = 0.36mW https://github.com/varshaj2006/CS-Amplifier-/blob/main/img1.jpg
 
 ---
 
