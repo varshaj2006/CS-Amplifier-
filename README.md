@@ -208,6 +208,8 @@ Expected Result:
 
  https://github.com/varshaj2006/CS-Amplifier-/blob/main/transient%20analysis%201.jpg
 
+ https://github.com/varshaj2006/CS-Amplifier-/blob/main/transient%20analysis%202.jpg
+
 ---
 
 #  Gain Calculation
