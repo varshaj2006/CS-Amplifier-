@@ -112,27 +112,9 @@ Components:
 
 ---
 
-#  LTspice Netlist Code
 
-```spice
-* CS Amplifier - TSMC 180nm
 
-.include tsmc180nm.lib
-
-VDD vdd 0 DC 1.2
-VIN in 0 DC 0.7 AC 1
-
-RD vdd out 2k
-CL out 0 0.5p
-
-M1 out in 0 0 NMOS W=18u L=360n
-
-.op
-.dc VIN 0 1.2 0.01
-.tran 0 50n
-.ac dec 100 1 1G
-
-.end
+```
 ```
 
 ---
