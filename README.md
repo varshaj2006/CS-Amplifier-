@@ -133,6 +133,7 @@ Expected Results:
 - Power ≈ 0.36mW  
 
 Attach DC Operating Point screenshot here  
+https://github.com/varshaj2006/CS-Amplifier-/blob/main/DC%20operating%20point.jpg
 
 ---
 
