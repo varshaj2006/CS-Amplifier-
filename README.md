@@ -108,7 +108,8 @@ Components:
 - RD = 2kΩ  
 - NMOS: W=18u, L=360n  
 - CL = 0.5pF  
-- Gate Bias ≈ 0.7V  
+- Gate Bias ≈ 0.7V
+- https://github.com/varshaj2006/CS-Amplifier-/blob/main/circuit%20diagram%20of%20cs%20amplifier.jpg
 
 ---
 
