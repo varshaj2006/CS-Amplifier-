@@ -9,6 +9,42 @@
 - Load Capacitance (CL): 0.5pF
 - Channel Length (Ln): 360nm
 
+- # Introduction
+
+- 
+Amplifiers are fundamental building blocks in analog integrated circuits used to increase signal strength. Among MOSFET amplifier configurations — Common Source (CS), Common Drain (CD), and Common Gate (CG) — the Common Source amplifier is most widely used for voltage amplification.
+
+Common Source amplifier provides:
+
+High voltage gain
+Moderate input impedance
+Good output swing
+180° phase shift between input and output
+Compared to:
+
+Common Drain → unity gain (buffer)
+Common Gate → current amplifier, high-frequency applications
+CS amplifier is preferred for general analog voltage amplification.
+
+MOSFET operates as a voltage-controlled current device. A small variation in gate voltage controls drain current which produces amplified voltage across the drain resistor.
+
+For proper amplification MOSFET must operate in saturation:
+
+VGS > VTH
+VDS ≥ (VGS − VTH)
+
+In practical ICs, MOSFET contains parasitic capacitances:
+
+Gate–Source capacitance (Cgs)
+Gate–Drain capacitance (Cgd)
+Drain–Body capacitance (Cdb)
+These affect high-frequency response and reduce gain and bandwidth.
+
+When load capacitor is connected:
+
+bandwidth decreases
+gain-bandwidth tradeoff observed
+
 ---
 
 #  Aim
