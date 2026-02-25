@@ -206,6 +206,8 @@ Expected Result:
  Attach transient waveform screenshot here  
  https://github.com/varshaj2006/CS-Amplifier-/blob/main/transient%20analysis.jpg
 
+ https://github.com/varshaj2006/CS-Amplifier-/blob/main/transient%20analysis%201.jpg
+
 ---
 
 #  Gain Calculation
