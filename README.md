@@ -150,7 +150,6 @@ Observation:
 - Identify saturation region  
 
  Attach DC Sweep graph screenshot here  
-https://github.com/varshaj2006/CS-Amplifier-/blob/main/dc%20analysis.jpg
 https://github.com/varshaj2006/CS-Amplifier-/blob/main/dc%20sweep.jpg
 ---
 
