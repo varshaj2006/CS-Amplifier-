@@ -199,6 +199,7 @@ Observation:
 - Phase shift ≈ -180°  
 
  Attach Bode plot screenshot here  
+ https://github.com/varshaj2006/CS-Amplifier-/blob/main/AC%20analysis%20without%20capacitor.jpg
 
 ---
 
