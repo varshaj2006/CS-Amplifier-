@@ -131,6 +131,7 @@ VD ≈ 0.6V
 RD = (1.2 - 0.6) / 0.3mA  
 
 RD = 2kΩ  
+https://github.com/varshaj2006/CS-Amplifier-/blob/main/img2.jpg
 
 ---
 
