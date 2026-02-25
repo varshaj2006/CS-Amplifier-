@@ -167,6 +167,7 @@ Expected Result:
 - 180° phase shift  
 
  Attach transient waveform screenshot here  
+ https://github.com/varshaj2006/CS-Amplifier-/blob/main/transient%20analysis.jpg
 
 ---
 
