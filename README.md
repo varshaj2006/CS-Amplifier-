@@ -147,8 +147,8 @@ Observation:
 - Plot Vout vs Vin  
 - Identify saturation region  
 
- Attach DC Sweep graph screenshot here dc analysis.jpg 
-
+ Attach DC Sweep graph screenshot here  
+https://github.com/varshaj2006/CS-Amplifier-/blob/main/dc%20analysis.jpg
 ---
 
 #  Transient Analysis
