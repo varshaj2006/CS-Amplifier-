@@ -271,4 +271,4 @@ The Common Source amplifier using TSMC 180nm technology was successfully designe
 - Increasing CL reduces bandwidth  
 - Proper biasing ensures saturation operation  
 
-# circuit 2
+# circuit 2gg
