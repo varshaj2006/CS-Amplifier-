@@ -271,4 +271,5 @@ The Common Source amplifier using TSMC 180nm technology was successfully designe
 - Increasing CL reduces bandwidth  
 - Proper biasing ensures saturation operation  
 
-#Experiment 2
+
+#Experiment 04 - differential amplifier 
