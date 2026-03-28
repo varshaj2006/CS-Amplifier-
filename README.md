@@ -272,4 +272,120 @@ The Common Source amplifier using TSMC 180nm technology was successfully designe
 - Proper biasing ensures saturation operation  
 
 
-#Experiment 04 - differential amplifier 
+#Experiment 04 - differential amplifier
+Differential Amplifier Analysis
+Aim
+To design and simulate three MOSFET differential amplifier configurations using LTspice by performing DC, Transient, and AC analyses, and to compare their performance based on gain, bandwidth, and power efficiency.
+
+Introduction
+A differential amplifier is one of the most fundamental building blocks in analog circuit design. It amplifies the difference between two input signals while rejecting common-mode signals, making it highly useful in noise-sensitive applications.
+
+MOSFET-based differential amplifiers are widely used in integrated circuits such as operational amplifiers, comparators, and analog signal processing systems due to their high gain, good noise immunity, and efficient performance.
+
+In this experiment, three different MOSFET differential amplifier configurations are analyzed using LTspice. The behavior of each circuit is studied through DC, Transient, and AC analyses to understand their gain, bandwidth, and overall performance characteristics.
+
+Theory
+A differential amplifier is a circuit that amplifies the difference between two input signals while rejecting any signal that is common to both inputs. This property is known as common-mode rejection and is an important feature in analog circuit design.
+
+A basic MOS differential amplifier consists of two matched MOSFETs (M1 and M2) whose sources are connected together and biased using a constant current source. The drains are connected to load elements such as resistors or active loads.
+
+When a differential input voltage is applied:
+
+v
+i
+d
+=
+v
+i
+n
+1
+−
+v
+i
+n
+2
+
+the total current is steered between the two transistors depending on the input difference. If 
+v
+i
+n
+1
+>
+v
+i
+n
+2
+, transistor M1 conducts more current, and if 
+v
+i
+n
+2
+>
+v
+i
+n
+1
+, transistor M2 conducts more.
+
+For small differential inputs, both transistors operate in the saturation region, and the circuit behaves linearly. The differential gain of the amplifier is given by:
+
+A
+v
+=
+g
+m
+R
+o
+u
+t
+
+where 
+g
+m
+ is the transconductance of the MOSFET and 
+R
+o
+u
+t
+ is the effective output resistance.
+
+The transconductance is defined as:
+
+g
+m
+=
+2
+I
+D
+V
+o
+v
+
+where 
+I
+D
+ is the drain current and 
+V
+o
+v
+ is the overdrive voltage.
+
+For larger differential inputs:
+
+v
+i
+d
+>
+2
+V
+o
+v
+
+one transistor turns OFF while the other carries the entire current, resulting in non-linear operation.
+
+The performance of the differential amplifier depends on the type of load used:
+
+Resistive load → moderate gain
+Active load → higher output resistance and higher gain
+Current mirror load → maximum gain and improved output characteristics
+Thus, by changing the circuit configuration, the gain, bandwidth, and overall performance of the differential amplifier can be significantly affected.
